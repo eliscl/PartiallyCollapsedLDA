@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cc.mallet.util.LDAUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.801 s -- in cc.mallet.util.LDAUtilsTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cc.mallet.topics.ParanoidTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 106.7 s -- in cc.mallet.topics.ParanoidTest

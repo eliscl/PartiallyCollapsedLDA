@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cc.mallet.similarity.CorpusStatisticsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.85 s -- in cc.mallet.similarity.CorpusStatisticsTest

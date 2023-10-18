@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cc.mallet.misc.SystematicSamplingTest" time="0.405" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/test-classes:/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/classes:/Users/elis/.m2/repository/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1.jar:/Users/elis/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/elis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/elis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/elis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/elis/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/elis/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/elis/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/elis/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/elis/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar:/Users/elis/.m2/repository/commons-configuration/commons-configuration/1.9/commons-configuration-1.9.jar:/Users/elis/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/elis/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/elis/.m2/repository/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar:/Users/elis/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/elis/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/elis/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/elis/.m2/repository/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar:/Users/elis/.m2/repository/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar:/Users/elis/.m2/repository/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar:/Users/elis/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar:/Users/elis/.m2/repository/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar:/Users/elis/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/elis/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar:/Users/elis/.m2/repository/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar:/Users/elis/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/elis/.m2/repository/org/ejml/ejml-all/0.41/ejml-all-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-core/0.41/ejml-core-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-simple/0.41/ejml-simple-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.jar:/Users/elis/.m2/repository/me/tongfei/progressbar/0.9.4/progressbar-0.9.4.jar:/Users/elis/.m2/repository/org/jline/jline/3.21.0/jline-3.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire/surefirebooter-20231018160231888_3.jar /Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire 2023-10-18T16-02-31_759-jvmRun1 surefire-20231018160231888_1tmp surefire_0-20231018160231888_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/test-classes:/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/classes:/Users/elis/.m2/repository/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1.jar:/Users/elis/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/elis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/elis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/elis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/elis/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/elis/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/elis/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/elis/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/elis/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar:/Users/elis/.m2/repository/commons-configuration/commons-configuration/1.9/commons-configuration-1.9.jar:/Users/elis/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/elis/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/elis/.m2/repository/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar:/Users/elis/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/elis/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/elis/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/elis/.m2/repository/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar:/Users/elis/.m2/repository/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar:/Users/elis/.m2/repository/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar:/Users/elis/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar:/Users/elis/.m2/repository/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar:/Users/elis/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/elis/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar:/Users/elis/.m2/repository/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar:/Users/elis/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/elis/.m2/repository/org/ejml/ejml-all/0.41/ejml-all-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-core/0.41/ejml-core-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-simple/0.41/ejml-simple-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.jar:/Users/elis/.m2/repository/me/tongfei/progressbar/0.9.4/progressbar-0.9.4.jar:/Users/elis/.m2/repository/org/jline/jline/3.21.0/jline-3.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/elis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire/surefirebooter-20231018160231888_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21"/>
+    <property name="user.name" value="elis"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/elis/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/mg/nhc28dfj6vx7_217wk8d77pr0000gn/T/"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/elis/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSystemicSamplingProbsWithProbOne" classname="cc.mallet.misc.SystematicSamplingTest" time="0.221">
+    <system-out><![CDATA[Sum is: 716
+max is: 100
+Given probs are:
+0,010000, 1,400000, 0,140000, 0,200000, 0,130000, 1,100000, 0,040000, 0,290000, 0,900000, 0,340000, 0,010000, 0,290000, 2,300000, 0,010000, 
+Sample probs are:
+0,010010, 1,000000, 0,140470, 0,199560, 0,130040, 1,000000, 0,039060, 0,289980, 0,901810, 0,339940, 0,010400, 0,290100, 1,000000, 0,010050, 
+P-value: 0.9746438054138526
+P-value: 0.668405884602453
+P-value: 0.730923591728187
+P-value: 0.9699968103132132
+P-value: 0.13132761525565328
+P-value: 0.9916594494136574
+P-value: 0.05640263487695704
+P-value: 0.9707117572419415
+P-value: 0.20359833075584824
+P-value: 0.9444403472071801
+P-value: 0.8737293913371661
+]]></system-out>
+  </testcase>
+  <testcase name="testSystemicSamplingProbs" classname="cc.mallet.misc.SystematicSamplingTest" time="0.145">
+    <system-out><![CDATA[Sum is: 716
+max is: 716
+Given probs are:
+0,001397, 0,195531, 0,019553, 0,027933, 0,018156, 0,153631, 0,005587, 0,040503, 0,125698, 0,047486, 0,001397, 0,040503, 0,321229, 0,001397, 
+Sample probs are:
+0,001540, 0,195280, 0,019200, 0,028300, 0,018440, 0,152430, 0,005820, 0,040770, 0,126300, 0,046460, 0,001360, 0,040340, 0,322270, 0,001490, 
+P-value: 0.21946551743299603
+P-value: 0.8451223986728271
+P-value: 0.4307054004779786
+P-value: 0.4776671626650837
+P-value: 0.499657789043466
+P-value: 0.29465142867414523
+P-value: 0.31871125048149257
+P-value: 0.6649332380246592
+P-value: 0.5638668103650538
+P-value: 0.12749302066718385
+P-value: 0.7994300244769296
+P-value: 0.8036382307120868
+P-value: 0.48123989165901176
+P-value: 0.4209723482782577
+]]></system-out>
+  </testcase>
+  <testcase name="testSystemicSamplingMaxTimes" classname="cc.mallet.misc.SystematicSamplingTest" time="0.011">
+    <system-out><![CDATA[Given counts are:
+4, 140, 14, 20, 13, 110, 29, 90, 34, 29, 230, 
+Sum is: 713
+max is: 230
+Samples are:
+2, 142, 11, 16, 18, 108, 26, 96, 34, 27, 230, 
+Given probs are:
+0,005610, 0,196353, 0,019635, 0,028050, 0,018233, 0,154278, 0,040673, 0,126227, 0,047686, 0,040673, 0,322581, 
+Sample probs are:
+0,002817, 0,200000, 0,015493, 0,022535, 0,025352, 0,152113, 0,036620, 0,135211, 0,047887, 0,038028, 0,323944, 
+LLratio: 36.3606146101306
+Chi of llratio: 7.296967947045818E-5
+p-value: 0.987039408428394
+]]></system-out>
+  </testcase>
+  <testcase name="testSystemicSamplingStep1" classname="cc.mallet.misc.SystematicSamplingTest" time="0.0"/>
+  <testcase name="testSystemicSamplingStep50" classname="cc.mallet.misc.SystematicSamplingTest" time="0.001">
+    <system-out><![CDATA[19, 17, 230, 56, 102, 59, 230, 141, 230, 157, 141, 230, ]]></system-out>
+  </testcase>
+  <testcase name="testZeroCountFirst" classname="cc.mallet.misc.SystematicSamplingTest" time="0.0">
+    <system-out><![CDATA[Sum is: 716
+max is: 716
+]]></system-out>
+  </testcase>
+  <testcase name="testZeroCountLast" classname="cc.mallet.misc.SystematicSamplingTest" time="0.0">
+    <system-out><![CDATA[Sum is: 716
+max is: 716
+]]></system-out>
+  </testcase>
+  <testcase name="testZeroCountsomewhere" classname="cc.mallet.misc.SystematicSamplingTest" time="0.001">
+    <system-out><![CDATA[Sum is: 716
+max is: 716
+]]></system-out>
+  </testcase>
+  <testcase name="testSystemicSampling" classname="cc.mallet.misc.SystematicSamplingTest" time="0.005">
+    <system-out><![CDATA[Sum is: 713
+max is: 230
+Samples are:
+93, 3003, 305, 421, 267, 2452, 609, 1922, 770, 650, 5000, 
+Given probs are:
+0,005610, 0,196353, 0,019635, 0,028050, 0,018233, 0,154278, 0,040673, 0,126227, 0,047686, 0,040673, 0,322581, 
+Sample probs are:
+0,006003, 0,193842, 0,019688, 0,027175, 0,017235, 0,158275, 0,039311, 0,124064, 0,049703, 0,041957, 0,322747, 
+LLratio: 41.138728516721585
+Chi of llratio: 1.0663539285915569E-5
+p-value: 0.9999993665087993
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cc.mallet.similarity.LDALikelihoodTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.70 s -- in cc.mallet.similarity.LDALikelihoodTest

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cc.mallet.topics.PoissonPolyaUrnTest" time="52.367" tests="7" errors="0" skipped="2" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/test-classes:/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/classes:/Users/elis/.m2/repository/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1.jar:/Users/elis/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/elis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/elis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/elis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/elis/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/elis/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/elis/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/elis/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/elis/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar:/Users/elis/.m2/repository/commons-configuration/commons-configuration/1.9/commons-configuration-1.9.jar:/Users/elis/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/elis/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/elis/.m2/repository/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar:/Users/elis/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/elis/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/elis/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/elis/.m2/repository/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar:/Users/elis/.m2/repository/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar:/Users/elis/.m2/repository/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar:/Users/elis/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar:/Users/elis/.m2/repository/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar:/Users/elis/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/elis/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar:/Users/elis/.m2/repository/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar:/Users/elis/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/elis/.m2/repository/org/ejml/ejml-all/0.41/ejml-all-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-core/0.41/ejml-core-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-simple/0.41/ejml-simple-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.jar:/Users/elis/.m2/repository/me/tongfei/progressbar/0.9.4/progressbar-0.9.4.jar:/Users/elis/.m2/repository/org/jline/jline/3.21.0/jline-3.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire/surefirebooter-20231018160231888_3.jar /Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire 2023-10-18T16-02-31_759-jvmRun1 surefire-20231018160231888_1tmp surefire_0-20231018160231888_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/test-classes:/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/classes:/Users/elis/.m2/repository/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1.jar:/Users/elis/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/elis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/elis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/elis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/elis/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/elis/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/elis/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/elis/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/elis/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar:/Users/elis/.m2/repository/commons-configuration/commons-configuration/1.9/commons-configuration-1.9.jar:/Users/elis/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/elis/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/elis/.m2/repository/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar:/Users/elis/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/elis/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/elis/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/elis/.m2/repository/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar:/Users/elis/.m2/repository/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar:/Users/elis/.m2/repository/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar:/Users/elis/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar:/Users/elis/.m2/repository/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar:/Users/elis/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/elis/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar:/Users/elis/.m2/repository/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar:/Users/elis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar:/Users/elis/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/elis/.m2/repository/org/ejml/ejml-all/0.41/ejml-all-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-core/0.41/ejml-core-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-simple/0.41/ejml-simple-0.41.jar:/Users/elis/.m2/repository/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.jar:/Users/elis/.m2/repository/me/tongfei/progressbar/0.9.4/progressbar-0.9.4.jar:/Users/elis/.m2/repository/org/jline/jline/3.21.0/jline-3.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/elis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA/target/surefire/surefirebooter-20231018160231888_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21"/>
+    <property name="user.name" value="elis"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/elis/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/mg/nhc28dfj6vx7_217wk8d77pr0000gn/T/"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="/Users/elis/Documents/PhD Analytical Sociology/Research/Constrained TM/PartiallyCollapsedLDA"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/elis/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCreateTopicTranslationTable" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="0.003"/>
+  <testcase name="testBinomialAliasUsingCounts" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="0.0">
+    <skipped message="not robust enough yet"/>
+  </testcase>
+  <testcase name="testBinomialAliasUsingProbs" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="0.0">
+    <skipped message="not robust enough yet"/>
+  </testcase>
+  <testcase name="testSaveAndContinueSampling" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="46.763">
+    <system-out><![CDATA[Using dataset: src/main/resources/datasets/nips.txt
+Scheme: polyaurn
+Polya Urn Parallell LDA (2 batches).
+Vocabulary size: 12304
+
+Instance list is: 1499
+Loading data instances...
+Starting iterations (20 total).
+LL (start): -2.1346650896569677E7 LL(end):-1.678757881926587E7
+Starting additional iterations (200 total).
+LL (start): -2.1346650896569677E7 LL(end):-1.5710021423760196E7
+Starting additional iterations new model (200 total).
+LL (start): -2.1346650896569677E7 LL(end):-1.5716364055113332E7
+]]></system-out>
+    <system-err><![CDATA[Iteration   0% &amp#27;[33m│                                  │&amp#27;[0m  0/20 (0:00:00 / ?) Iteration  30% &amp#27;[33m│████████▍                   │&amp#27;[0m  6/20 (0:00:01 / 0:00:02) Oct 18, 2023 4:07:40 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <10> Log Likelihood: -1.83664889363859E7
+Iteration  70% &amp#27;[33m│███████████████████▌        │&amp#27;[0m 14/20 (0:00:02 / 0:00:00) Oct 18, 2023 4:07:41 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <20> Log Likelihood: -1.678757881926587E7
+Iteration 100% &amp#27;[33m│████████████████████████████│&amp#27;[0m 20/20 (0:00:02 / 0:00:00) Iteration 100% &amp#27;[33m│████████████████████████████│&amp#27;[0m 20/20 (0:00:02 / 0:00:00) 
+Oct 18, 2023 4:07:42 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <30> Log Likelihood: -1.641277039831848E7
+Oct 18, 2023 4:07:44 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <40> Log Likelihood: -1.6233270235222695E7
+Oct 18, 2023 4:07:45 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <50> Log Likelihood: -1.6124652250670139E7
+Oct 18, 2023 4:07:46 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <60> Log Likelihood: -1.6048355976773765E7
+Oct 18, 2023 4:07:47 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <70> Log Likelihood: -1.5995191498698113E7
+Oct 18, 2023 4:07:48 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <80> Log Likelihood: -1.5947717410177656E7
+Oct 18, 2023 4:07:49 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <90> Log Likelihood: -1.5915165330702916E7
+Oct 18, 2023 4:07:50 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <100> Log Likelihood: -1.588071454392143E7
+Oct 18, 2023 4:07:51 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <110> Log Likelihood: -1.5855435692397727E7
+Oct 18, 2023 4:07:52 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <120> Log Likelihood: -1.5833204388745062E7
+Oct 18, 2023 4:07:53 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <130> Log Likelihood: -1.5814382377267273E7
+Oct 18, 2023 4:07:55 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <140> Log Likelihood: -1.5795689463088337E7
+Oct 18, 2023 4:07:56 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <150> Log Likelihood: -1.5777558971908474E7
+Oct 18, 2023 4:07:57 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <160> Log Likelihood: -1.5768743269993175E7
+Oct 18, 2023 4:07:58 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <170> Log Likelihood: -1.575888965415642E7
+Oct 18, 2023 4:07:59 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <180> Log Likelihood: -1.5746966053621167E7
+Oct 18, 2023 4:08:00 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <190> Log Likelihood: -1.5737431029112475E7
+Oct 18, 2023 4:08:01 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <200> Log Likelihood: -1.5729208722002862E7
+Oct 18, 2023 4:08:02 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <210> Log Likelihood: -1.571566510794863E7
+Oct 18, 2023 4:08:03 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <220> Log Likelihood: -1.5710021423760196E7
+Oct 18, 2023 4:08:04 PM cc.mallet.topics.UncollapsedParallelLDA getPhiMeans
+WARNING: No Phi has yet been sampled! getPhiMeans returns 'null'. Ensure that you have correctly configured 'phi_mean_burnin' and 'phi_mean_thin'
+Iteration   0% &amp#27;[33m│                                │&amp#27;[0m   0/200 (0:00:00 / ?) Iteration   4% &amp#27;[33m│█▏                        │&amp#27;[0m   9/200 (0:00:01 / 0:00:21) Oct 18, 2023 4:08:05 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <10> Log Likelihood: -1.6412066892545298E7
+Iteration   9% &amp#27;[33m│██▍                       │&amp#27;[0m  19/200 (0:00:02 / 0:00:19) Oct 18, 2023 4:08:06 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <20> Log Likelihood: -1.6234487972294461E7
+Iteration  14% &amp#27;[33m│███▋                      │&amp#27;[0m  28/200 (0:00:03 / 0:00:18) Oct 18, 2023 4:08:07 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <30> Log Likelihood: -1.612700813546484E7
+Iteration  19% &amp#27;[33m│████▉                     │&amp#27;[0m  38/200 (0:00:04 / 0:00:17) Oct 18, 2023 4:08:08 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <40> Log Likelihood: -1.6053255804663656E7
+Iteration  23% &amp#27;[33m│██████                    │&amp#27;[0m  47/200 (0:00:05 / 0:00:16) Oct 18, 2023 4:08:09 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <50> Log Likelihood: -1.5993201087581037E7
+Iteration  28% &amp#27;[33m│███████▍                  │&amp#27;[0m  57/200 (0:00:06 / 0:00:15) Oct 18, 2023 4:08:10 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <60> Log Likelihood: -1.5951182579953158E7
+Iteration  33% &amp#27;[33m│████████▌                 │&amp#27;[0m  66/200 (0:00:07 / 0:00:14) Oct 18, 2023 4:08:11 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <70> Log Likelihood: -1.5914360781466668E7
+Iteration  37% &amp#27;[33m│█████████▊                │&amp#27;[0m  75/200 (0:00:08 / 0:00:13) Oct 18, 2023 4:08:12 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <80> Log Likelihood: -1.588528224303114E7
+Iteration  42% &amp#27;[33m│███████████               │&amp#27;[0m  85/200 (0:00:09 / 0:00:12) Oct 18, 2023 4:08:13 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <90> Log Likelihood: -1.5862148129531693E7
+Iteration  47% &amp#27;[33m│████████████▎             │&amp#27;[0m  95/200 (0:00:10 / 0:00:11) Oct 18, 2023 4:08:14 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <100> Log Likelihood: -1.58392179703413E7
+Iteration  52% &amp#27;[33m│█████████████▌            │&amp#27;[0m 104/200 (0:00:11 / 0:00:10) Oct 18, 2023 4:08:15 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <110> Log Likelihood: -1.5819105531074816E7
+Iteration  57% &amp#27;[33m│██████████████▊           │&amp#27;[0m 114/200 (0:00:12 / 0:00:09) Oct 18, 2023 4:08:16 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <120> Log Likelihood: -1.5799795376169998E7
+Iteration  62% &amp#27;[33m│████████████████          │&amp#27;[0m 124/200 (0:00:13 / 0:00:07) Oct 18, 2023 4:08:17 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <130> Log Likelihood: -1.5786296869868098E7
+Iteration  66% &amp#27;[33m│█████████████████▎        │&amp#27;[0m 133/200 (0:00:14 / 0:00:07) Oct 18, 2023 4:08:18 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <140> Log Likelihood: -1.5775492284733543E7
+Iteration  71% &amp#27;[33m│██████████████████▌       │&amp#27;[0m 143/200 (0:00:15 / 0:00:05) Oct 18, 2023 4:08:20 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <150> Log Likelihood: -1.576672299674784E7
+Iteration  75% &amp#27;[33m│███████████████████▋      │&amp#27;[0m 151/200 (0:00:16 / 0:00:05) Oct 18, 2023 4:08:21 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <160> Log Likelihood: -1.5755888047168298E7
+Iteration  80% &amp#27;[33m│████████████████████▉     │&amp#27;[0m 161/200 (0:00:17 / 0:00:04) Oct 18, 2023 4:08:22 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <170> Log Likelihood: -1.5742476346588613E7
+Iteration  85% &amp#27;[33m│██████████████████████▏   │&amp#27;[0m 171/200 (0:00:18 / 0:00:03) Oct 18, 2023 4:08:23 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <180> Log Likelihood: -1.5731670152170232E7
+Iteration  90% &amp#27;[33m│███████████████████████▍  │&amp#27;[0m 180/200 (0:00:19 / 0:00:02) Oct 18, 2023 4:08:24 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <190> Log Likelihood: -1.5723578579468247E7
+Iteration  95% &amp#27;[33m│████████████████████████▋ │&amp#27;[0m 190/200 (0:00:20 / 0:00:01) Oct 18, 2023 4:08:25 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <200> Log Likelihood: -1.5716364055113332E7
+Iteration 100% &amp#27;[33m│██████████████████████████│&amp#27;[0m 200/200 (0:00:20 / 0:00:00) Iteration 100% &amp#27;[33m│██████████████████████████│&amp#27;[0m 200/200 (0:00:20 / 0:00:00) 
+]]></system-err>
+  </testcase>
+  <testcase name="testRandomConfigs" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="0.512"/>
+  <testcase name="testNoLessTopics" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="0.0"/>
+  <testcase name="testContinueSampling" classname="cc.mallet.topics.PoissonPolyaUrnTest" time="5.086">
+    <system-out><![CDATA[Using dataset: src/main/resources/datasets/nips.txt
+Scheme: polyaurn
+Spalias Uncollapsed Parallell LDA (2 batches).
+Vocabulary size: 12304
+
+Instance list is: 1499
+Loading data instances...
+Starting iterations (20 total).
+]]></system-out>
+    <system-err><![CDATA[Iteration   0% &amp#27;[33m│                                  │&amp#27;[0m  0/20 (0:00:00 / ?) Iteration  35% &amp#27;[33m│█████████▊                  │&amp#27;[0m  7/20 (0:00:01 / 0:00:01) Oct 18, 2023 4:08:27 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <10> Log Likelihood: -1.849543258044308E7
+Iteration  75% &amp#27;[33m│█████████████████████       │&amp#27;[0m 15/20 (0:00:02 / 0:00:00) Oct 18, 2023 4:08:28 PM cc.mallet.topics.UncollapsedParallelLDA sample
+INFO: <20> Log Likelihood: -1.683897490382175E7
+Iteration 100% &amp#27;[33m│████████████████████████████│&amp#27;[0m 20/20 (0:00:02 / 0:00:00) Iteration 100% &amp#27;[33m│████████████████████████████│&amp#27;[0m 20/20 (0:00:02 / 0:00:00) 
+Oct 18, 2023 4:08:28 PM cc.mallet.topics.UncollapsedParallelLDA getPhiMeans
+WARNING: No Phi has yet been sampled! getPhiMeans returns 'null'. Ensure that you have correctly configured 'phi_mean_burnin' and 'phi_mean_thin'
+Oct 18, 2023 4:08:29 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <30> Log Likelihood: -1.6409031960038533E7
+Oct 18, 2023 4:08:30 PM cc.mallet.topics.UncollapsedParallelLDA continueSampling
+INFO: <40> Log Likelihood: -1.6209086917916607E7
+]]></system-err>
+  </testcase>
+</testsuite>

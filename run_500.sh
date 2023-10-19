@@ -2,7 +2,7 @@
 
 #!/bin/sh
 #SBATCH --t 90:00:00
-#SBATCH --A snic2022-22-1078
+#SBATCH --A naiss2023-22-1050
 #SBATCH --N 1
 #SBATCH --C fat
 #SBATCH --exclusive

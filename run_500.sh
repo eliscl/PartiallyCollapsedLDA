@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #!/bin/sh
-#SBATCH --t 90:00:00
-#SBATCH --account naiss2023-22-1043
-#SBATCH --N 1
-#SBATCH --C fat
+#SBATCH -t 90:00:00
+#SBATCH -A naiss2023-22-1043
+#SBATCH -N 1
+#SBATCH -C fat
 #SBATCH --exclusive
 #SBATCH --mail-user=elis.carlberg.larsson@liu.se
 #SBATCH --mail-type=ALL

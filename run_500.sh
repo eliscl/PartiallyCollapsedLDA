@@ -10,7 +10,6 @@
 #SBATCH --mail-type=ALL
 
 
-echo projinfo
 # choose java version
 ml Java/1.8.0_74-nsc1
 

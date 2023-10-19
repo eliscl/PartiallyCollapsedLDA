@@ -1,11 +1,10 @@
 #!/bin/bash
 
 #!/bin/sh
-#SBATCH -J "combined_seeded_v2.sh"
-#SBATCH -t 90:00:00
-#SBATCH -A snic2022-22-1078
-#SBATCH -N 1
-#SBATCH -C fat
+#SBATCH --t 90:00:00
+#SBATCH --A snic2022-22-1078
+#SBATCH --N 1
+#SBATCH --C fat
 #SBATCH --exclusive
 #SBATCH --mail-user=elis.carlberg.larsson@liu.se
 #SBATCH --mail-type=ALL

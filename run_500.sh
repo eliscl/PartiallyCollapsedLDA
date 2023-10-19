@@ -1,3 +1,19 @@
 #!/bin/bash
 
+#!/bin/sh
+#SBATCH -J "combined_seeded_v2.sh"
+#SBATCH -t 90:00:00
+#SBATCH -A snic2022-5-571
+#SBATCH -N 1
+#SBATCH -C fat
+#SBATCH --exclusive
+#SBATCH --mail-user=elis.carlberg.larsson@liu.se
+#SBATCH --mail-type=ALL
+
+
+echo projinfo
+# choose java version
+ml Java/1.8.0_74-nsc1
+
+
 java -jar -Xmx110g -Xms110g target/PCPLDA-9.2.2.jar --run_cfg=/proj/textsoc/users/x_elcar/PartiallyCollapsedLDA/src/main/resources/configuration/us_congress.cfg

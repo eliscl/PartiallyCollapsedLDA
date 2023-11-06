@@ -14,4 +14,4 @@
 ml Java/1.8.0_74-nsc1
 
 
-java -jar -Xmx110g -Xms110g target/PCPLDA-9.2.2.jar --run_cfg=/proj/textsoc/users/x_elcar/PartiallyCollapsedLDA/src/main/resources/configuration/us_congress.cfg
+java -jar -Xmx110g -Xms110g target/PCPLDA-9.2.2.jar --run_cfg=/proj/textsoc/PartiallyCollapsedLDA/src/main/resources/configuration/us_congress.cfg
